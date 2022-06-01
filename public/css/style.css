@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto';
+    font-size: 12px;
+}
+
+header {
+    background-color: #EAC926;
+}
+
+main {
+    padding: 10px;
+}
+
+
+article {
+    margin-bottom: 10px;
+    border-top: solid 1px #ebebeb;
+    padding: 15px;
+    text-align: center;
+}
+
+.precios {
+    font-family: 'Roboto';
+    font-size: 18px;
+}
+
+.ofertas {
+    font-family: 'Roboto';
+    font-size: 24px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.descuentos {
+    font-family: 'Roboto';
+    font-size: 16px;
+}
+
+.descripcion {
+    font-family: 'Roboto';
+    font-size:16px
+}
+
+.icon-magnifying-glass {
+    background: snow;
+    width: 20px;
+    height: 20px;
+    margin: 0px;
+    padding: 1px;
+    border: 1px solid black;
+    color: black;
+    font-size: 16px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    text-align: center;
+}
+
+.icon-cog {
+    color: #1259c3;
+    font-size: 2em;
+    margin-bottom: 10px;
+}
+
+.icon-delivery {
+    color: green;
+    text-align: center;
+    font-size: 2em;
+}
+
+#burgerMenu a {
+    background: hsl(210,100%,50%);
+    width: 32px;
+    height: 32px;
+    margin: 16px;
+    padding: 8px;
+    border: 1px solid black;
+    color: hsl(210,100%,100%);
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
