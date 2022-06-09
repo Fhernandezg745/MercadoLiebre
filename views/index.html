@@ -24,33 +24,34 @@
 
 <body>
     <header class="main-header">
-        <div class="main-header-top-bar">
+        <section class="main-header-top-bar">
             <img src="images/logo-mercado-liebre.svg" alt="logo" class="logoMeli" />
             <form action="barraBusqueda">
                 <input type="text" name="barraBusqueda" placeholder="Buscar productos, marcas " /><i class="fa-solid fa-magnifying-glass icon-magnifying-glass"></i>
             </form>
             <h2 class="headerH2"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h2>
-        </div>
+        </section>
 
         <nav id="burgerMenu" align="center">
             <a href="#">
                 <i class="fas fa-bars burger-menu burgerIcon"></i>
             </a>
         </nav>
-        <nav class="main-navbar">
-            <nav class="loginNavbar">
-                <a href="" style="text-decoration: none">Ofertas</a>
-                <a href="" style="text-decoration: none">Tiendas Oficiales</a>
-                <a href="" style="text-decoration: none">Vender</a>
-                <a href="" style="text-decoration: none">Ayuda</a>
+        <section>
+            <nav class="main-navbar">
+                <nav class="loginNavbar">
+                    <a href="" style="text-decoration: none">Ofertas</a>
+                    <a href="" style="text-decoration: none">Tiendas Oficiales</a>
+                    <a href="" style="text-decoration: none">Vender</a>
+                    <a href="" style="text-decoration: none">Ayuda</a>
+                </nav>
+                <nav class="site">
+                    <a href="/register.html" style="text-decoration: none">Creá tu cuenta <i class="fa-solid fa-id-card"></i></a>
+                    <a href="/login.html" style="text-decoration: none">Ingresá <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                    <a href="" style="text-decoration: none">Mis compras <i class="fa-solid fa-basket-shopping"></i></a>
+                </nav>
             </nav>
-
-            <nav class="site">
-                <a href="/register.html" style="text-decoration: none">Creá tu cuenta <i class="fa-solid fa-id-card"></i></a>
-                <a href="/login.html" style="text-decoration: none">Ingresá <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
-                <a href="" style="text-decoration: none">Mis compras <i class="fa-solid fa-basket-shopping"></i></a>
-            </nav>
-        </nav>
+        </section>
         <nav>
             <img src="/images/img-home-banner.jpg" alt="">
         </nav>
@@ -60,9 +61,12 @@
     <main>
         <h2 class="ofertas">Basado en tu última visita</h2>
         <section class="wrapper">
+            <h2></h2>
             <article>
                 <div class="articleBox">
-                    <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera">
+                    <figure>
+                        <img src="/images/img-cafetera-moulinex.jpg" alt="Cafetera">
+                    </figure>
                     <div class="descripcionArticulo">
                         <i class="fa-solid fa-truck logoEnvio"></i>
                         <nav class="precios"> $6.770 </nav>
