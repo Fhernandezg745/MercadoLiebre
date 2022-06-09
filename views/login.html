@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MercadoLiebre</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="/css/header-mobile.css">
+    <link rel="stylesheet" href="/css/header-tablet.css">
+    <link rel="stylesheet" href="/css/header-desktop.css">
+    <link rel="stylesheet" href="/css/login.css">
+
+
+</head>
+
+<body>
+
+    <header class="main-header">
+        <div class="main-header-top-bar">
+            <img src="images/logo-mercado-liebre.svg" alt="logo" class="logoMeli" />
+            <input type="text" placeholder="Buscar productos, marcas " />
+            <form action="/crearPoducto" method="POST"></form>
+            <a href=""><i class="fa-solid fa-magnifying-glass icon-magnifying-glass"></i></a>
+            <h2 class="headerH2"><i class="fa-solid fa-hand-holding-dollar"></i> Comprá en cuotas y sin tarjeta de crédito</h2>
+        </div>
+
+        <nav id="burgerMenu" align="center">
+            <a href="#">
+                <i class="fas fa-bars burger-menu burgerIcon"></i>
+            </a>
+        </nav>
+        <nav class="main-navbar">
+            <nav class="loginNavbar">
+                <a href="" style="text-decoration: none">Ofertas</a>
+                <a href="" style="text-decoration: none">Tiendas Oficiales</a>
+                <a href="" style="text-decoration: none">Vender</a>
+                <a href="" style="text-decoration: none">Ayuda</a>
+            </nav>
+
+            <nav class="site">
+                <a href="/register.html" style="text-decoration: none">Creá tu cuenta <i class="fa-solid fa-id-card"></i></a>
+                <a href="/login.html" style="text-decoration: none">Ingresá <i class="fa-solid fa-arrow-right-to-bracket"></i></a>
+                <a href="" style="text-decoration: none">Mis compras <i class="fa-solid fa-basket-shopping"></i></a>
+            </nav>
+        </nav>
+        <nav>
+            <img src="/images/img-home-banner.jpg" alt="">
+        </nav>
+
+    </header>
+
+    <main>
+        <form action="/login.html" method="post" class="formDialog">
+            <div class="formItems">
+                <label for="usuario">Usuari@</label>
+                <input type="text" name="usuario" placeholder="Ingrese nombre de usuari@" pattern="Usuario o contraseña incorrectos" required class="textInput">
+            </div>
+            <div class="formItems">
+                <label for="password">Contraseña</label>
+                <input type="password" name="password" id="password" placeholder="Crea tu contraseña" pattern="Usuario o contraseña incorrectos" required class="textInput">
+            </div>
+            <div class="formItems">
+                <a href="http://localhost:3000/">
+                    <input type="button" value="Regresar a la pagina principal" name="return" class="loginButton">
+            </div>
+        </form>
+
+</body>

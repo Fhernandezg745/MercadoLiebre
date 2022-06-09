@@ -1,0 +1,19 @@
+@media (min-width:1200px) {
+    .main-header-top-bar,
+    .main-navbar {
+        max-width: 1200px;
+        border: green 1px solid;
+        margin: auto;
+    }
+    .main-navbar a {
+        margin: 0 10px;
+    }
+    .headerH2 {
+        max-width: none;
+        margin: 0;
+    }
+    .main-header-top-bar {
+        border: dotted red 3px;
+        align-items: center;
+    }
+}

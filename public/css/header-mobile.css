@@ -1,0 +1,58 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 12px;
+}
+
+.headerH2 {
+    text-align: center;
+    font-weight: 400px;
+    font-size: 17px;
+}
+
+header img {
+    display: flex;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+}
+
+.logoMeli {
+    display: flex;
+    width: 200px;
+}
+
+.barraBusqueda {
+    display: flex;
+    flex-grow: 1;
+}
+
+.site {
+    display: none;
+}
+
+.loginNavbar {
+    display: none;
+}
+
+#burgerMenu a {
+    background: hsl(210, 100%, 50%);
+    width: 24px;
+    height: 24px;
+    margin: 12px;
+    padding: 1px;
+    border: 1px solid black;
+    color: hsl(210, 100%, 100%);
+    font-size: 16px;
+    text-decoration: none;
+    display: inline-block;
+    box-sizing: border-box;
+    border-radius: 6px;
+}
+
+.main-header {
+    background-color: #EAC926;
+    padding: 20px;
+}
